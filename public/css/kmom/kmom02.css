@@ -1,0 +1,15 @@
+/*KMOM02 STYLES*/
+.randomAnimal {
+    font-weight: 800;
+}
+
+#greetings {
+    margin-top: 1em;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
+}
+
+.text-top {
+    align-items: flex-start !important;
+}

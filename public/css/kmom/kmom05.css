@@ -1,0 +1,53 @@
+/*KMOM05 Styles */
+#selectYear {
+    margin: 15px 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableContainer {
+    margin-bottom: 30px;
+}
+
+table {
+    display: table-cell;
+    border-collapse: collapse;
+}
+td{
+    border: none; /*1px solid rgb(190, 190, 190);*/
+    padding: 8px 15px;
+}
+
+tr:nth-child(even){
+    background-color: var(--table-even-row);
+}
+  
+tr:hover {
+    background-color: var(-table-row-hover);
+}
+  
+th {
+    padding: 12px 15px;
+    text-align: left;
+    background-color: var(--table-header-bg);
+    color: var(--white-text);
+    border: none;
+    font-weight: unset;
+  }
+.number {
+    text-align: right;
+}
+
+.kmom05 {
+    /*display: flex;
+    flex-direction: row;
+    width: 100%;*/
+    margin-bottom: 20px;
+}
+
+.clearPoints {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 10px;
+}

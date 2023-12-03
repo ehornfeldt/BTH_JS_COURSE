@@ -1,0 +1,103 @@
+@import url("branding.css");
+@import url("kmom/kmom01.css");
+@import url("kmom/kmom02.css");
+@import url("kmom/kmom03.css");
+@import url("kmom/kmom04.css");
+@import url("kmom/kmom05.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+h1, h2 {
+    margin: 1em 0em;
+}
+
+p {
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 11px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+select {
+    width: 100px;
+    font-family: inherit;
+    padding: 4px;
+    background-color: var(--dropdown-bg-color);
+    border-color: var(--dropdown-border);
+    border-radius: 2px;
+}
+
+.content {
+    width: 100%;
+    padding: 50px 50px;
+}
+
+.rounded, .circle {
+    border-radius: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/*NAVBAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: var(--nav-bg-color);
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--white-text);
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+li a:hover:not(.active) {
+    background-color: var(--nav-hover-color);
+}
+
+.active {
+    background-color: var(--nav-selected);
+    color: var(--primary-text-color);
+}

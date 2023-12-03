@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Min presentation</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script type="module" src="js/kmom05.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html">Me</a></li>
+                <li><a href="redovisning.html">Redovisning</a></li>
+                <!--<li><a href="om.html">Om</a></li>-->
+                <li><a href="kmom02.html">Kursmoment 2</a></li>
+                <li><a href="kmom03.html">Kursmoment 3</a></li>
+                <li><a href="kmom04.html">Kursmoment 4</a></li>
+                <li><a href="kmom05.html" class="active">Kursmoment 5</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="row">
+                <h1>Kursmoment 5</h1>
+            </div>
+             <div class="kmom05">
+                <div class="tableContainer">
+                    <h3>Our world in data</h3>
+                    <p>Here you can see the carbon dioxid (CO2) data for different countries. 
+                        The country with lowest emission in CO2, CO2 per capita and CO2 per GDP is highlighted.</p>
+                    <div id="selectYear">
+                        <label>CHOOSE YEAR</label>
+                        <select id="chooseYear"></select>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>COUNTRY</th><th>YEAR</th><th>CO2</th><th>CO2 PER CAPITA</th><th>GDP</th><th>CO2 PER GDP</th><th>POPULATION</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dataTable"></tbody>
+                    </table>
+                </div>
+                <div class="tableContainer">
+                    <h3>Highscore</h3>
+                    <p style="margin-bottom: 15px;">Below you can see each time a country had the lowest emission</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>COUNTRY</th><th>POINTS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sweden</td>
+                                <td id="sweden">0</td>
+                            </tr>
+                            <tr>
+                                <td>Norway</td>
+                                <td id="norway">0</td>
+                            </tr>
+                            <tr>
+                                <td>Denmark</td>
+                                <td id="denmark">0</td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                    <button class="clearPoints">CLEAR POINTS</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

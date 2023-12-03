@@ -1,0 +1,19 @@
+:root {
+    --background-color: #f4f4f4;
+    
+    --primary-text-color: #000;
+    --white-text: #fff;
+    --primary-button-color: #7da0b2;
+
+    --dropdown-bg-color:  --background-color;
+    --dropdown-border: #adadad;
+
+    --nav-bg-color: #3c5462;
+    --nav-selected: #7da0b2;
+    --nav-hover-color: #5f707a;
+
+    --table-header-bg: #647c88;
+    --table-even-row: #e5e5e5;
+    --table-row-hover: #c3c3c3;
+
+}

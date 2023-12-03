@@ -1,0 +1,13 @@
+/*KMOM01 STYLES*/
+.presentation {
+    text-align: center;
+    margin: 5px 10px 50px 10px;
+}
+
+.smaller {
+    font-size: 10px;
+}
+
+.centerImg {
+    margin: 0 auto;
+}
