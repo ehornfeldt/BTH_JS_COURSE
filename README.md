@@ -1,5 +1,5 @@
 # BTH_JS_COURSE
-This is the result of a course called 'Programming in JavaScript' giving at Blekinge Tekniska Högskola.
+This is the result of a course called 'Programming in JavaScript' given at Blekinge Tekniska Högskola.
 
 The course includes different sections named 'Kursmoment' (acronym: KMOMxx, where xx is the number of the section).
 
